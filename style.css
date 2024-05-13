@@ -1,0 +1,111 @@
+* {
+    padding: 20px;
+    margin-right: 15px;
+    margin: -1px;
+    box-sizing: border-box;
+}
+
+
+  html,
+  body {
+   position: relative;
+   height: 50%;
+   width: 100%;
+
+}
+body {
+    background-color: #570e1c;
+    font-family: 'heartcakes-demo regular';
+    color: white;
+    margin-top: 300px;
+    text-align: center;
+}
+input {
+    display: flex;
+}
+h2 {
+    text-align: center;
+}
+.container {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    background-color: #8e8282;
+    padding: 20px -15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(57, 15, 15, 0.1);
+    font-family: "heartcakes-demo regular";
+    position: relative;
+}
+@media (max-width: 100%) {
+    .container {
+      background-size: 100%;
+  }
+}
+@media (min-width: 100%) {
+  .container {
+    height: 20%;
+  }
+}
+.login-button {
+    width: 15%;
+    height: 18%;
+    padding: 7px 20px 10px;
+    margin-top: 10%;
+    background-color: #8d5a64b7;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    cursor: url("https://i.postimg.cc/W3qhS1dc/pawcursor-1.png"), pointer;
+}
+.login-button:hover {
+    background-color: #79091f;
+}
+.box1 {
+    width: 60%;
+    height: 18%;
+    padding: 11px;
+    margin-bottom: 15px;
+    margin-block-start: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: url("https://i.postimg.cc/W3qhS1dc/pawcursor-1.png"), auto;
+}
+.box2 {
+  width: 60%;
+  height: 18%;
+  padding: 11px;
+  margin-bottom: 30px;
+  margin-block-start: 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: url("https://i.postimg.cc/W3qhS1dc/pawcursor-1.png"), auto;
+}
+.login-image {
+    left: 58%;
+    width: 40%;
+    top: 19%;
+    position: absolute;
+    
+}
+@media (max-width: 100%) {
+    .login-image {
+      margin-top: 5px;
+    }
+  }
+@media (min-width: 100%) {
+  .login-image {
+    margin-top: 3px;
+  }
+}
+.pawcursor {
+    cursor: url("https://i.postimg.cc/W3qhS1dc/pawcursor-1.png"), auto;
+}
+.pawcursor:active {
+    cursor: url("https://i.postimg.cc/WzRtycZF/pawcursorblack.png"), auto;
+}
+.cursor {
+    cursor: pointer;
+}
